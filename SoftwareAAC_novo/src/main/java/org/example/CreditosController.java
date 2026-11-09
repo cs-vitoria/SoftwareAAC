@@ -13,7 +13,7 @@ public class CreditosController {
 
     @FXML
     void voltar(ActionEvent event) throws IOException {
-        Launcher.mudarTela(event, "inicial.fxml");
+        Launcher.mudarTela(event, "tela_inicial.fxml");
     }
 
 }

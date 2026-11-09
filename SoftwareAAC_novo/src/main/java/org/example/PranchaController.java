@@ -7,10 +7,18 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 
+import java.io.IOException;
+
 public class PranchaController {
 
     @FXML
+    private Button btn_enviar;
+
+    @FXML
     private Button btn_limpar;
+
+    @FXML
+    private Button btn_voltar;
 
     @FXML
     private Label frase_final;
@@ -60,8 +68,18 @@ public class PranchaController {
     }
 
     @FXML
+    void enviar(ActionEvent event) {
+
+    }
+
+    @FXML
     void limpar(ActionEvent event) {
 
+    }
+
+    @FXML
+    void voltar(ActionEvent event) throws IOException {
+        Launcher.mudarTela(event, "tela_inicial.fxml");
     }
 
 }
