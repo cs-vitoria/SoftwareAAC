@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PranchaController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="600.0" layoutX="-9.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagens_png/prancha.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txt_contexto" layoutX="22.0" layoutY="112.0" onAction="#contexto" prefHeight="61.0" prefWidth="537.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btn_limpar" layoutX="232.0" layoutY="752.0" mnemonicParsing="false" onAction="#limpar" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="frase_final" layoutX="25.0" layoutY="689.0" prefHeight="45.0" prefWidth="535.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <ImageView fx:id="imagem1" fitHeight="146.0" fitWidth="146.0" layoutX="20.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem2" fitHeight="146.0" fitWidth="146.0" layoutX="218.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem3" fitHeight="146.0" fitWidth="146.0" layoutX="415.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem4" fitHeight="146.0" fitWidth="146.0" layoutX="21.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem5" fitHeight="146.0" fitWidth="146.0" layoutX="219.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem6" fitHeight="146.0" fitWidth="146.0" layoutX="417.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <Label fx:id="palavra1" alignment="CENTER" layoutX="21.0" layoutY="403.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="palavra2" alignment="CENTER" layoutX="218.0" layoutY="403.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="palavra3" alignment="CENTER" layoutX="417.0" layoutY="403.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="palavra4" alignment="CENTER" layoutX="21.0" layoutY="616.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="palavra5" alignment="CENTER" layoutX="220.0" layoutY="616.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="palavra6" alignment="CENTER" layoutX="417.0" layoutY="616.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_enviar" layoutX="437.0" layoutY="180.0" mnemonicParsing="false" onAction="#enviar" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btn_voltar" layoutX="4.0" layoutY="10.0" mnemonicParsing="false" onAction="#voltar" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
