@@ -40,12 +40,30 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
-            <ImageView fx:id="imagem1" fitHeight="146.0" fitWidth="146.0" layoutX="20.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagem2" fitHeight="146.0" fitWidth="146.0" layoutX="218.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagem3" fitHeight="146.0" fitWidth="146.0" layoutX="415.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagem4" fitHeight="146.0" fitWidth="146.0" layoutX="21.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagem5" fitHeight="146.0" fitWidth="146.0" layoutX="219.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagem6" fitHeight="146.0" fitWidth="146.0" layoutX="417.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imagem1" fitHeight="146.0" fitWidth="146.0" layoutX="20.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem2" fitHeight="146.0" fitWidth="146.0" layoutX="218.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem3" fitHeight="146.0" fitWidth="146.0" layoutX="415.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem4" fitHeight="146.0" fitWidth="146.0" layoutX="21.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem5" fitHeight="146.0" fitWidth="146.0" layoutX="219.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
+            <ImageView fx:id="imagem6" fitHeight="146.0" fitWidth="146.0" layoutX="417.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
             <Label fx:id="palavra1" alignment="CENTER" layoutX="21.0" layoutY="403.0" prefHeight="25.0" prefWidth="146.0">
                <font>
                   <Font size="15.0" />

@@ -21,9 +21,9 @@ public class AACBoardGenerator {
      */
     public String gerarPrancha(String pedido) throws Exception {
         String instr = "Você é um especialista em Comunicação Alternativa e Aumentativa (CAA/AAC) em pt-BR.\n"
-                + "Sua tarefa é gerar uma lista de EXATAMENTE 5 itens essenciais e variados para o PEDIDO.\n\n"
+                + "Sua tarefa é gerar uma lista de EXATAMENTE 6 itens essenciais e variados para o PEDIDO.\n\n"
                 + "REGRAS ESTRITAS:\n"
-                + "1. Retorne EXATAMENTE 5 linhas (5 itens no total).\n"
+                + "1. Retorne EXATAMENTE 6 linhas (6 itens no total).\n"
                 + "2. O campo 'tipo' deve ser APENAS uma letra referente à categoria:\n"
                 + "   - s = substantivo (ex: palhaço, pipoca)\n"
                 + "   - v = verbo/ação (ex: sorrir, assistir)\n"
@@ -38,8 +38,9 @@ public class AACBoardGenerator {
                 + "assistir|v\n"
                 + "divertido|a\n"
                 + "circo|l\n"
-                + "eu quero|e\n\n"
-                + "Responda APENAS as 5 linhas da lista:";
+                + "eu quero|e\n"
+                + "pipoca|s\n\n"
+                + "Responda APENAS as 6 linhas da lista:";
 
         String prompt = "<start_of_turn>user\n" + instr + "\n\nPEDIDO: " + pedido + "<end_of_turn>\n<start_of_turn>model\n";
 
